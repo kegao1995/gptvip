@@ -5,8 +5,8 @@ import streamlit_openai  # Streamlit的OpenAI集成库
 
 # 可用的OpenAI模型列表
 AVAILABLE_MODELS = {
-    "gpt-4o-latest": "GPT-4o 最新版本",
-    "gpt-o4-mini": "GPT-o4 Mini",
+    "gpt-4o-latest": "gpt-4o-latest",
+    "gpt-o4-mini": "gpt-o4-mini",
 }
 
 # 在侧边栏添加模型选择器
