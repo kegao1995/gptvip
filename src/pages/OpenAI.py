@@ -15,7 +15,7 @@ selected_model = st.sidebar.selectbox(
     "选择AI模型:",
     options=list(AVAILABLE_MODELS.keys()),
     format_func=lambda x: AVAILABLE_MODELS[x],
-    index=4  # 默认选择gpt-4o-search-preview
+    index=0  
 )
 
 # 显示选中模型的信息
